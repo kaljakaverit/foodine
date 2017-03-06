@@ -1,0 +1,115 @@
+/*
+Theme Name: Foodinetheme
+Theme URI: http://users.metropolia.fi
+Author: Veera Hyllinen
+Author URI: https://metropolia.fi/
+Description: Teeman teon opiskelua
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blue
+Text Domain: Foodinetheme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+	font-family: 'Didact Gothic', sans-serif;
+    background-color: #4b0000;
+    color: lightgray;
+	margin: 0;
+	padding: 0;
+}
+
+.darkred {
+	background-color: rgba(128, 0, 0, 0.8);
+}
+
+main {
+    height: 500px;
+    margin-top: 90px;
+ }
+
+.main-header {
+	width: 100%;
+	float: left;
+	height: 70px;
+}
+
+.logo {
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.logo a{
+    color: black;
+}
+
+footer {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 1em 0 1em 0;
+	margin-top: 1em;
+    box-sizing: border-box;
+}
+
+.cat {
+    float: left;
+    margin-left: 20px;
+}
+
+i {
+   text-align: center; 
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+.addnew {
+    float: right;
+    margin-right: 20px;
+}
+
+.headerbutton {
+	border-radius: 40%;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    background-color: #880000;
+    border: 0px;
+}
+
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:active {
+    text-decoration: none;
+    border: none;
+}
+
+.search {
+    
+    border-radius: 10%;
+    width: 100px;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    display: block;
+
+}
+
+.content-row {
+    box-sizing: border-box;
+    height: 80%;
+}
+
