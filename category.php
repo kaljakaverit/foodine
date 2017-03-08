@@ -23,7 +23,7 @@
 				<h4>
 					<?php echo $article->post_title; ?>
 				</h4>
-				<p><?php echo substr($article->post_excerpt, 0, 100);?>...</p>
+
 		</a>
 
 	</article>	

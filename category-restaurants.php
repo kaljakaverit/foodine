@@ -23,7 +23,6 @@
                 echo get_the_post_thumbnail( $articles[0]->ID, 'thumbnail');
                 ?>
 				<h4><?php echo $term->name; ?></h4>
-                <p><?php echo substr(category_description( $term->term_id ), 0, 100);?>...</p>
 		</a>
 	</article>	
     <?php endforeach; ?>

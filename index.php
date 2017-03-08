@@ -11,11 +11,8 @@
 	</div>
 	<div class="row">
 	<div class="col">
-	<button type="button" class="search darkred"><i class="fa fa-search" aria-hidden="true"></i>
-	
-	
-	
-	</button>
+	<a href="<?php echo get_page_link(88); ?>"><button type="button" class="search darkred"><i class="fa fa-search" aria-hidden="true"></i>
+	</button></a>
 	</div>
 	</div>
 

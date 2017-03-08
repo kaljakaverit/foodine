@@ -12,7 +12,7 @@ Text Domain: Foodinetheme
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
-*/
+*/ 
 
 body {
 	font-family: 'Didact Gothic', sans-serif;
@@ -113,3 +113,50 @@ button:active {
     height: 80%;
 }
 
+h2 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.post {
+    text-align: center;
+}
+
+gmw-form-wrapper {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin: 10%;
+}
+
+.gmw-submit {
+    background-color: #880000;
+    border-radius: 10%;
+}
+
+.gmw-address {
+    background-color: #dba5a5;
+
+}
+
+input {
+    color: black;
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:#db5959;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#db5959;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:#db5959;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:#db5959;
+}
