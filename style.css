@@ -12,7 +12,7 @@ Text Domain: Foodinetheme
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
-*/
+*/ 
 
 body {
 	font-family: 'Didact Gothic', sans-serif;
@@ -22,8 +22,77 @@ body {
 	padding: 0;
 }
 
+
+.gmw-form-wrapper {
+    text-align: center;
+    background-color: rgba(128, 0, 0, 0.8);
+    border: 2px solid #000000;
+    border-radius: 4px; 
+    width: 300px; 
+     float: none;
+    margin: 0 auto;
+}
+
+label {
+    display: none;
+}
+
+
+
+.gmw-form {
+    margin: 10%;  
+}
+
+.gmw-submit {
+    background-color: #880000;
+    border-radius: 10%;
+}
+
+.gmw-address {
+    background-color: #dba5a5;
+
+}
+
+select {
+    background-color: #dba5a5;
+}
+
+input {
+    color: black;
+}
+
+option {
+    color:#db5959;
+}
+
+.gmw-results-count, .gmw-pt-pagination-wrapper {
+    color: black;
+    border-radius: 2px;
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:#db5959;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#db5959;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:#db5959;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:#db5959;
+} 
+
 .darkred {
 	background-color: rgba(128, 0, 0, 0.8);
+}
+
+.intro {
+    margin-top: 100px;
+    text-align: center; 
 }
 
 main {
@@ -45,6 +114,11 @@ main {
 
 .logo a{
     color: black;
+}
+
+.logopic {
+    margin-top: 5px;
+    height: 60px;
 }
 
 footer {
@@ -108,8 +182,39 @@ button:active {
 
 }
 
+
 .content-row {
     box-sizing: border-box;
     height: 80%;
+}
+
+h2 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.post {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .logopic {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .searchbig {
+        display: none;
+    }
+    h1, h3 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .searchsmall {
+        display: none;
+    }
 }
 
